@@ -1,0 +1,95 @@
+{
+  box-sizing: border-box;
+}
+
+  margin: 0;
+
+body {
+  background-color: #FEF1F1;
+}
+
+nav{
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFE249;
+  font-family: 'calibri', sans-serif;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: #363f58;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #363F58; color: #FEF1F1;}
+
+}
+
+.header {
+  margin: 0;
+  padding: 50px;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  align-content: center;
+}
+
+.column {
+  margin: 0;
+  background-color: aliceblue;
+  flex:40%;
+  border: 1px solid #fff;
+  padding: 15px;
+  align-items: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+P,h2.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    color: #363f58;
+	font-family: 'calibri', sans-serif;
+  }
+
+#Aim{
+	position: relative; top: -40px;
+}
+
+#Research{
+	position: relative; top: +220px;
+}
+
+
+  @media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+  .column {
+    width: 100%;
+  }
+}
